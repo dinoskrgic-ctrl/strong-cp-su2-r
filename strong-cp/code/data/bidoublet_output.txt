@@ -1,0 +1,21 @@
+[Eq. kappaphase] c = Tr(Md^-1 Mu) - Tr(Mu^-1 Md) at x = 0
+  trace formula vs finite difference: max relative difference 6.0e-07
+  median |c| = 44, 10-90% = 8 to 245   (paper: 45, 9 to 300)
+  note: without the mod-pi fold about half the draws read theta = pi and |c| ~ pi/y
+
+[Eq. imz] Im z from the full potential at 60 digits, v_R = 1e15 GeV, <chi> = 1e9 GeV, phi = pi/2
+  vacuum 1: Im z = 3.3212264e-12, Eq. imz with exact D: rel. diff 6.4e-17; D/(alpha3 vR^2) = 1.128; Re z = 0.337
+  vacuum 2: Im z = 1.8310706e-12, Eq. imz with exact D: rel. diff 1.0e-16; D/(alpha3 vR^2) = 2.447; Re z = 0.769
+  vacuum 3: Im z = 3.79905e-12, Eq. imz with exact D: rel. diff 1.7e-17; D/(alpha3 vR^2) = 1.036; Re z = -0.186
+  vacuum 4: Im z = 6.1226426e-13, Eq. imz with exact D: rel. diff 1.5e-37; D/(alpha3 vR^2) = 4.626; Re z = 0.885
+  vacuum 5: Im z = -1.5164309e-12, Eq. imz with exact D: rel. diff 6.8e-17; D/(alpha3 vR^2) = 1.273; Re z = 0.463
+  (1 draws rejected because the stationary point was a saddle)
+  note: g^A here is the antisymmetric part of g_ab plus twice that of k_ab, the off-diagonal
+  chi_a^dag chi_b Tr(Phi~ Phi^dag) term, which is allowed and has the same vacuum structure.
+  symmetric g, k (exchange-symmetric potential): Im z = 1.23e-137
+
+[Eq. phiquant] |phi| in degrees at the global minimum, subleading terms of relative size 1e-06
+  Z4 exchange E: max ||phi| - 90| = 1.30e-02 deg; agrees with e1/(2|h|) to 3.5e-06 deg
+  plain exchange: |phi| in {0, 180} in 100% of draws
+  no symmetry, h11 h22 > 0: |phi| in {0, 180} in 100% of draws
+  no symmetry, h11 h22 < 0: |phi| - 90: median 27 deg, within 5 deg in 22%, within 20 deg in 44% of draws (h12 of order h11)
