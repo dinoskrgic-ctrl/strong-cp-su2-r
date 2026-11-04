@@ -2,10 +2,8 @@
 
 **Dino Škrgić and Dejan Stojkovic**, Department of Physics, University at Buffalo, SUNY
 
-This repository holds the current draft of the paper and the code behind
-every number and figure in it. The draft is typeset in the SciPost Physics
-format, but the journal has not been decided yet, so treat the layout as
-provisional. The physics content is what matters here.
+Claude Opus 5.5 assisted with code writing and sentence-level editing in the manuscript. 
+Prepared for submission in SciPost Physics.
 
 ## The paper in brief
 
